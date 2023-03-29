@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.bg{
+    background-color: black;
+    opacity: 30%;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.navbar-toggler:focus{
+box-shadow: none;
+
+}
+
+.nav-item:hover{
+    background-color: #00146d;
+    transition: .4s;
+
+}
+
+.hero{
+    width: fit-content;
+    min-height: 60vh;
+    background-size: cover;
+
+}
+
+.masthead{
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+
+}
+
+@media (max-width: 720px) {
+    .masthead {
+        min-height: 30vh;
+
+    }
+}
